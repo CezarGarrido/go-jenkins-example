@@ -2,7 +2,7 @@
 // https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin
 
 node() {
-  def root = tool name: 'Go 1.9', type: 'go'
+  def root = tool name: 'go1.13.4', type: 'go'
 
  stage('Preparation') {
  checkout scm
