@@ -10,7 +10,7 @@ pipeline {
                  stage('Build') {
                  steps {                                           
                       echo 'cd GOPATH'
-                      sh """cd $GOPATH/src/github.com/CezarGarrido/go-jenkins-example/ && go build -ldflags '-s'"""             
+                      sh 'cd C:\\desenvolvimentoGo\\src\\github.com\\CezarGarrido\\go-jenkins-example\\ && go build'            
                    }     
                  }
                }
